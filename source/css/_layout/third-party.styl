@@ -1,4 +1,7 @@
-#vcomment
+#vcomment,
+#waline
+  font-size: 1.1em
+
   .vbtn
     border: none
     background: var(--btn-bg)
@@ -6,10 +9,6 @@
 
     &:hover
       background: var(--btn-hover-color)
-
-  if hexo-config('valine.bg')
-    textarea
-      background: url(hexo-config('valine.bg')) 100% 100% no-repeat
 
   .vimg
     transition: all .3s
@@ -21,6 +20,22 @@
     &:before,
     &:after
       z-index: 22
+
+if hexo-config('valine.bg')
+  #vcomment
+    textarea
+      background: url(hexo-config('valine.bg')) 100% 100% no-repeat
+
+      &:focus
+        background-image: none
+
+if hexo-config('waline.bg')
+  #waline-wrap
+    textarea
+      background: url(hexo-config('waline.bg')) 100% 100% no-repeat
+
+      &:focus
+        background-image: none
 
 .fireworks
   position: fixed
@@ -56,13 +71,21 @@
     margin: 0 0 .8em
     padding: .3rem 0 .8em
 
+.katex-wrap
+  overflow: auto
+
+  if hexo-config('katex') && hexo-config('katex.hide_scrollbar')
+    &::-webkit-scrollbar
+      display: none
+
 // mathjax
-mjx-container[jax='CHTML'][display='true']
+mjx-container
   overflow-x: auto
   overflow-y: hidden
-  padding-bottom: .5rem
-  outline: 0
-  line-height: 2
+
+  &:not([display])
+    display: inline-grid
+    max-width: 100%
 
 .aplayer
   color: $font-black
