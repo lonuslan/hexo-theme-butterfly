@@ -9,12 +9,12 @@
 ![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/master?color=%231ab1ad&label=master)
 ![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/dev?label=dev)
 ![https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff](https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff)
-![hexo version](https://img.shields.io/badge/hexo-5.0+-0e83c)
+![hexo version](https://img.shields.io/badge/hexo-5.3.0+-0e83c)
 ![license](https://img.shields.io/github/license/jerryc127/hexo-theme-butterfly?color=FF5531)
 
 ![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/theme-butterfly-readme.png)
 
-預覽: 👍 [Butterfly](https://butterfly.js.org/)  ||  🤞 [MYW](https://immyw.com/)
+預覽: 👍 [Butterfly](https://butterfly.js.org/)  ||  🤞 [CrazyWong](https://crazywong.com/)
 
 文檔: 📖 [Butterfly Docs](https://butterfly.js.org/posts/21cfbf15/)
 
@@ -24,7 +24,7 @@
 
 ### Git 安裝
 
-> 本倉庫同時上傳到 [Gitee](https://gitee.com/iamjerryw/hexo-theme-butterfly)，如果你訪問 Github 緩慢，可從 Gitee 中下載。
+> 本倉庫同時上傳到 [Gitee](https://gitee.com/immyw/hexo-theme-butterfly.git)，如果你訪問 Github 緩慢，可從 Gitee 中下載。
 
 在博客根目錄裡安裝穩定版【推薦】
 
@@ -79,7 +79,7 @@ theme: butterfly
 - [x] 顯示相關文章
 - [x] 過期文章提醒
 - [x] 多種分享系統（AddThis/Sharejs/Addtoany）
-- [X] 多種評論系統（Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo）
+- [X] 多種評論系統（Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42）
 - [x] 支持雙評論部署
 - [x] 多種在線聊天（Chatra/Tidio/Daovoice/Gitter/Crisp）
 - [x] 多種分析系統
